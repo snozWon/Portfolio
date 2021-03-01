@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+
+/* @font-face {
+  font-family: '';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/fontName.woff2) format('woff2');
+  font-display: swap;
+} */
+
+@tailwind utilities;
+
+/* Sets Local font as default */
+@layer base {
+  body {
+    @apply font-sans;
+  }
+}
