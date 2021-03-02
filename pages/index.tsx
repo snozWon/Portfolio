@@ -1,9 +1,11 @@
 import Landing from '../src/components/Landing';
+import WhatWeDo from '../src/components/WhatWeDo';
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-blue-300">
+    <main className="min-h-screen">
       <Landing />
+      <WhatWeDo />
     </main>
   );
 }

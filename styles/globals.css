@@ -17,3 +17,8 @@
     @apply font-sans;
   }
 }
+@layer utilities {
+  .bd-blur {
+    backdrop-filter: blur(6px)
+  }
+}
